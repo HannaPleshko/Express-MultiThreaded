@@ -1,0 +1,24 @@
+{
+  "name": "express-multithreaded",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannaPleshko/Express-MultiThreaded.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HannaPleshko/Express-MultiThreaded/issues"
+  },
+  "homepage": "https://github.com/HannaPleshko/Express-MultiThreaded#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
+}
