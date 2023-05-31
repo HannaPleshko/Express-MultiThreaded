@@ -7,7 +7,6 @@ const path = './storage/storage.json'
 
 function getCourses() {
     const storage = JSON.parse(readFileSync(path));
-    console.log(storage);
     if (!storage.length) throw new HttpException(404, ExceptionType.DB_COURSES_NOT_FOUND);
     return storage;
 }
